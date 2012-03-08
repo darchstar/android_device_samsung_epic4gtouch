@@ -159,7 +159,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Set default USB interface
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+PRODUCT_PROPERTY_OVERRIDE += \
 	persist.sys.usb.config=mass_storage,adb
 
 $(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
