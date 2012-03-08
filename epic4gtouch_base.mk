@@ -75,8 +75,8 @@ PRODUCT_PACKAGES += \
 	Camera
 
 # Sensors
-#PRODUCT_PACKAGES += \
-#	lights.exynos4
+PRODUCT_PACKAGES += \
+	lights.exynos4
 
 # Ril
 PRODUCT_PROPERTY_OVERRIDES += \
